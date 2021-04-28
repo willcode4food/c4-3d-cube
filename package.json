@@ -1,0 +1,21 @@
+{
+    "name": "c4-3d-cube",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "node-sass --watch scss -o css",
+        "build": "node-sass scss -o css",
+        "serve": "serve ./"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "compass-sass-mixins": "^0.12.7",
+        "node-sass": "^5.0.0"
+    },
+    "devDependencies": {
+        "serve": "^11.3.2"
+    }
+}
